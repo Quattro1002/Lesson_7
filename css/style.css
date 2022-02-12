@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body{
+	font-family: 'Imperial Script';
+	font-weight: 600;
+	font-style: normal;
+	font-size: 30px;
+}
+
+.wrapper{
+	max-width: 1920px;
+	padding: 20px 10px;
+	text-align: center;
+	background: url('../img/img3.jpg') repeat;
+}
+
+.content{
+	padding: 30px 0 20px 0;
+}
+
+.background{
+	background: rgb(255, 255, 255) url('../img/img1.jpg') center no-repeat fixed;
+	max-width: 1250px;
+	text-align: left;
+	margin: 0 auto;
+	box-shadow: 5px 0px 3px rgb(46, 46, 46);
+}
+
+.main{
+	padding: 10px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+
+.logo-block{
+	border: black solid 1px;
+	max-width: 1225px;
+	margin: 10px auto 20px auto;
+	padding: 50px;
+	box-shadow: 0px 0px 10px 2px;
+	background: url('../img/img9.jpg') 10px 10px no-repeat, url('../img/img10.jpg') 1060px 10px no-repeat;
+
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
+
+h1{
+	font-family: 'Abril Fatface';
+	font-weight: 900;
+	font-size: 45px;
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+
+h2{
+	font-family: 'Abril Fatface';
+	font-weight: 600;
+	font-size: 30px;
+	text-decoration:underline;
+	color: rgb(90, 90, 90);
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+
+h3{
+	font-family: 'Imperial Script';
+	font-weight: 900;
+	font-size: 40px;
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+
+#origin{
+	text-indent: 0px;
+}
+
+.menu{
+	text-decoration: underline 1px;
+	font-family: 'Imperial Script';
+	text-align: center;
+	font-weight: 700;
+	font-size: 35px;
+	margin: 0 0 20px 0;
+}
+
+.list li{
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+
+.span-england{
+	text-decoration: 1px underline;
+}
+
+.main-article-1{
+	text-indent: 100px;
+    text-align: justify;
+	margin: 0 0px 50px 0;
+	padding: 30px;
+}
+
+.text-1{
+	padding: 10px;
+}
+
+.main-article-2{
+	text-indent: 100px;
+    text-align: justify;
+	background: url('../img/img4.png') 100% 100% no-repeat;
+	background-color: rgb(255, 254, 250);
+	box-shadow: 0px 0px 10px 2px;
+	border: 1px solid black;
+	margin: 0px 0px 80px 0;
+	padding: 30px;
+}
+
+.text-2{
+	padding: 10px;
+}
+
+.main-article-3{
+    text-align: justify;
+	background: url('../img/img6.jpg') 800px 50px no-repeat, url('../img/img7.jpg') 30px 1130px no-repeat, url('../img/img12.jpg') 600px 1710px no-repeat;
+	background-color: rgb(255, 254, 249);
+	box-shadow: 0px 0px 10px 2px;
+	border: 1px solid black;
+	padding: 30px;
+	margin: 0 0 30px 0;
+}
+
+.text-ww-1{
+	text-indent: 100px;
+}
+
+.text-ww-2{
+	text-indent: 100px;
+}
+
+.text-ww-3{
+	text-indent: 100px;
+}
+
+.ww-list li{
+	font-size: 25px;
+	margin: 0 0 10px 0;
+	padding: 0 0 0 50px;
+	background: url('../img/img5.png') left top no-repeat;
+}
+
+.gradient{
+	max-width: 1225px;
+	margin: 0 auto;
+	background: rgb(254,252,234); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(254,252,234,1) 19%, rgba(215,179,157,1) 70%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(254,252,234,1) 19%,rgba(215,179,157,1) 70%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(254,252,234,1) 19%,rgba(215,179,157,1) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#d7b39d',GradientType=0 ); /* IE6-9 */
+	box-shadow: 0px 0px 10px 2px;
+	border: 1px solid black;
+	padding: 40px;
+}
+
+.top{
+	font-weight: 400;
+	font-size: 60px;
+	text-align: center;
+	max-width: 1225px;
+	height: 170px;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid black;
+	box-shadow: 0px 0px 10px 2px;
+	background: url('../img/img9.jpg') 10px 10px no-repeat, url('../img/img10.jpg') 1060px 10px no-repeat,url('../img/img11.jpg') 510px 85px no-repeat; 
+	background-color: rgb(255, 255, 249);
+}
